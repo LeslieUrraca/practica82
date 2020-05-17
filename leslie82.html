@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+  var valor=prompt('Ingrese 4 numero y separalos con coma cada uno de ellos','');
+  var patron=/^\d{1}\,\d{1}\,\d{1}\,\d{1}$/;
+  if (patron.test(valor))
+    document.write('Los separo con coma');
+  else
+    document.write('No los separo con coma');
+</script>
+  
+</body>
+</html>
+
